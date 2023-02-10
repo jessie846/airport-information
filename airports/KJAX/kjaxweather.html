@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="kjaxweather.css" /> 
+        <title>kjaxweather Information</title>
+    </head>
+    <body>
+            </head>
+            <body>
+                <nav>
+                    <label class="logo">KJAX</label>
+                    <ul>
+                        <li><a class = "active" href= "kjax.html"> Home</a></li>
+                        <li><a href= "kjaxpositions.html">Positions</a></li>
+                        <li><a href= "kjaxrunways.html"> Runways/Sceneries</a></li>
+                        <li><a href= "kjaxcharts.html"> Charts</a></li>
+                        <li><a href= "kjaxweather.html"> Weather</a></li>
+                    </ul>
+                </nav>
+                <h1> KJAX METAR and TAF</h1>
+                <h2> METAR </h2>
+        <div class="checkwx-container" data-type="METAR" data-station="KJAX"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+        <br>
+        <h2> TAF </h2>
+        <div class="checkwx-container" data-type="TAF" data-station="KJAX"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+        <br>
+        <h2> Runway selection based on winds </h2>
+        <h3> If the winds are less than 5 knots you should use Runway 8 and 14 </h3>
+        <h3> If the winds are 5 knots or greater and the wind direciton is 020°-200° you should use Runway 8 and 14</h3>
+        <h3> If the winds are 5 knots or greather and the wind direction is 201°-019° you should use Runway 26 and 32</h3>
+       </body>
+        </html>
+</html>
