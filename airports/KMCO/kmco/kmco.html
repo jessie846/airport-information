@@ -6,6 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="kmco.css" />
         <title>KMCO Information</title>
+        <script type="text/javascript">
+            var imageUrls = [
+            "https://media.discordapp.net/attachments/1067645282562613311/1073364761489719386/image.png?width=1288&height=671",
+            "https://cdn.discordapp.com/attachments/1067645282562613311/1073365849798348800/image.png",
+            "https://media.discordapp.net/attachments/1067645282562613311/1073365988151664650/image.png?width=1290&height=671"
+            ];
+            var imageLinks = [
+            "https://media.discordapp.net/attachments/1067645282562613311/1073364761489719386/image.png?width=1288&height=671",
+            "https://cdn.discordapp.com/attachments/1067645282562613311/1073365849798348800/image.png",
+            "https://media.discordapp.net/attachments/1067645282562613311/1073365988151664650/image.png?width=1290&height=671" 
+  ];
+            function getImageHtmlCode() {
+              var dataIndex = Math.floor(Math.random() * imageUrls.length);
+              var img = '<a href=\"' + imageLinks[dataIndex] + '"><img src="';        
+              img += imageUrls[dataIndex];
+              img += '\" alt=\"Jorgesys Stackoverflow.com\"/></a>';
+              return img;
+            }
+            </script>
     </head>
     <body>
         <nav>
@@ -13,14 +32,15 @@
             <ul>
                 <li><a href= "kmco.html"> Home</a></li>
                 <li><a href= "kmcopositions.html">Positions</a><</li>
-                <li><a href= "kmcorunways.html"> Runways</a></li>
+                <li><a href= "kmcorunways.html"> Runways/Sceneries</a></li>
                 <li><a href= "kmcocharts.html"> Charts</a></li>
                 <li><a href= "kmcoweather.html"> Weather</a></li>
             </ul>
         </nav>
-        
-        <h2> This is the Main Page for information about KMCO </h2>
-        
-        <p> If you would like to suggest any features or fix any changes please go to the github <a href = "https://github.com/jessie846/airport-information" </p>
-    </body>
+        <script type="text/javascript">
+            document.write(getImageHtmlCode()); 
+          </script>
+        <p> Credit to Josh for the pictures</p>
+        <p> If you would like to suggest any features or fix any changes please go to the github <a href = "https://github.com/jessie846/airport-information" >Github Link</a></p>
+            </body>
 </html>
