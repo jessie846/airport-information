@@ -9,7 +9,9 @@
         <title>Airport Information</title>
     </head>
 <body>
-    <input type= "search" value="" id="search" onchange="penPage()">
+    <h1> Airport Information </h1>
+    <h3> Enter Airport ICAO Code:</h3>
+    <input type= "search" value="" id="search" onchange="openPage()">
 
     <script>
         function openPage (){
@@ -22,9 +24,15 @@
         if (x === "KJAX"){
             window.open("airports/KJAX/kjax.html");
         }
-        }
 
+        if (x === "KIAH"){
+            window.open("airports/KIAH/kiah.html");
+        }
+        }
+        
     </script>
+    <h2> Full List of Airports:</h2>
+    <li><a href = "airports.html">Airports</a></li>
 </body>
 </html>
 
