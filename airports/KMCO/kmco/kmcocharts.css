@@ -15,6 +15,7 @@ nav {
     background: rgb(38, 38, 44);
     height: 80px;
     width: 100%;
+    text-align: center;
 }
 
 label.logo{
@@ -23,6 +24,7 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    text-align: center;
 }
 
 nav ul {
