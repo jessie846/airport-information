@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="kcleweather.css" /> 
+        <title>KMCO Information</title>
+    </head>
+    <body>
+                <nav>
+                    <label class="logo">KCLE</label>
+                    <ul>
+                        <li><a class = "active" href= "kcle.html"> Home</a></li>
+                        <li><a href= "kclepositions.html">Positions</a></li>
+                        <li><a href= "kclerunways.html"> Runways/Sceneries</a></li>
+                        <li><a href= "kclecharts.html"> Charts</a></li>
+                        <li><a href= "kcleweather.html"> Weather</a></li>
+                    </ul>
+                </nav>
+                <h1> KMCO METAR and TAF</h1>
+        <div class="checkwx-container" data-type="METAR" data-station="KJFK"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+        <div class="checkwx-container" data-type="TAF" data-station="KJFK"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+        <br>
+        <h2> Runway selection based on winds </h2>
+        <h3> If the winds are less than 5 knots you should use the 24s.
+        <h3> If the winds are 5 knots or greater and the wind direciton is 150-330° you should depart/arrive the 24s</h3>
+        <h3> If the winds are 5 knots or greater and the wind direction is 331-149° you should depart/arrive the 6s</h3>
+       </body>
+        </html>
+</html>
