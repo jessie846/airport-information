@@ -44,47 +44,34 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+
 a.active, a:hover {
     background: rgb(38, 38, 44);
     transition: .5s;
 }
 
 h1 {
-color: black;
-text-align: center;
-margin: 25px 0 25px;
+    color: black;
+    text-align: center;
+    margin: 50px 0 50px;
 }
 
 h2 {
-color: black;
-text-align: center;
-margin: 25px 0 25px;
+    color: black;
+    text-align: center;
+    margin: 50px 0 50px;
 }
 
 h3 {
-color: black;
-text-align: center;
-margin: 25px 0 25px;
-}
-
-h4 {
-color: black;
-text-align: center;
-margin: 15px 0 15px;
-}
-p {
-color: black;
-text-align: center;
-margin: 50px 0 50px;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    color:black;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 70px;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 50px 0 50px;   
+    size-adjust: 100px;
+    }
+    
+    .checkwx-container {
+        text-align: center;
+        margin: 50px 0 50px;
+        color: black;
+        font-size: larger;
+    }
