@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="kdenweawther.css" /> 
+        <title>KDEN Weather Information</title>
+    </head>
+    <body>
+                <nav>
+                    <label class="logo">KDEN </label>
+                    <ul>
+                        <li><a class = "active" href= "kden.html"> Home</a></li>
+                        <li><a href= "kdenpositions.html">Positions</a></li>
+                        <li><a href= "kdenrunways.html"> Runways/Sceneries</a></li>
+                        <li><a href= "kdencharts.html"> Charts</a></li>
+                        <li><a href= "kdenweather.html"> Weather</a></li>
+                    </ul>
+                </nav>
+                <h1> KDEN METAR and TAF</h1>
+                <h2> METAR </h2>
+        <div class="checkwx-container" data-type="METAR" data-station="KDEN"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+                <h2> TAF </h2>
+        <div class="checkwx-container" data-type="TAF" data-station="KDEN"></div>
+        <script src="https://api.checkwx.com/widget?key=44341d286ade42ff970c298a99" type="text/javascript"></script>
+       </body>
+        </html>
+</html>
